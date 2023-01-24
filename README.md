@@ -8,7 +8,15 @@ Check if strings are rotations of each other.
 
 Basic idea is to concantenate `s1` with `s1` call it a `s` and check if `s2` is contained in `s1`. Of course if `s1` and `s2` length doesn't match return `false`  
 
-First let's understand how strings work in Swift:
+```
+let str1 = "abcd"
+let str2 = "cdab"
+var str = str1 + str1
+let isStr2Rotated = str.contains(str2)
+print(isStr2Rotated) // true
+```
+
+Next, let's understand how strings work in Swift:
 
 
 <img width="637" alt="Screenshot 2023-01-23 at 10 57 23 PM" src="https://user-images.githubusercontent.com/1192700/214230266-e8df109e-878f-4b5e-afde-7933ed86c959.png">
