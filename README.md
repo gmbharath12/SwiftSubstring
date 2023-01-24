@@ -1,6 +1,6 @@
 # SwiftSubstring
 
-Write a program to check if strings are rotations of each other. 
+Check if strings are rotations of each other. 
 
 > s1 = "ABCD", s2 = "CDAB" -> return `true`
 
