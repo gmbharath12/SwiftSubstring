@@ -39,8 +39,9 @@ Another big improvement in Swift 4 is that Strings are Collections (again). That
 
 The following examples show how to get a substring in Swift.
 
-Getting substrings
-You can get a substring from a string by using subscripts or a number of other methods (for example, prefix, suffix, split). You still need to use String.Index and not an Int index for the range, though. (See my other answer if you need help with that.)
+**Getting substrings**
+
+You can get a substring from a string by using subscripts or a number of other methods (for example, prefix, suffix, split). You still need to use String.Index and not an Int index for the range, though. [See here](https://stackoverflow.com/questions/39677330/how-does-string-substring-work-in-swift)
 
 **Beginning of a string**
 
